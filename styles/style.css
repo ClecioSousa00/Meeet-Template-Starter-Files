@@ -17,6 +17,7 @@ body{
 .container{
     
     max-width: 90%;
+    height: 100vh;
     margin: auto;
 }
 
@@ -28,6 +29,7 @@ body{
 .img-top{
     display: flex;
     justify-content: space-between;
+   
 }
 
 .img-left{
@@ -79,6 +81,9 @@ body{
     margin-left: 202px;
     cursor: pointer;
 }
+ .btn-img .img-buttom{
+    display: none;
+}
 
 .box{
     display: flex;
@@ -91,10 +96,12 @@ body{
     height: 48px;
     align-items: center;
     gap: 10px;
+    margin-left: 50px;
 }
-.box .social-media p{
+.box .social-media a{
     font-family: 'Montserrat', sans-serif;
     color: white;
+    text-decoration: none;
 }
 
 
