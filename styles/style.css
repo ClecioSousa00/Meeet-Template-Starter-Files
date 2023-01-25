@@ -87,9 +87,10 @@ body{
 
 .box{
     display: flex;
-    justify-content: space-around;
+    
     align-items: center;
     margin-top: 30px;
+    gap: 290px;
 }
 
 .box .social-media{
