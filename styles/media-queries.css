@@ -1,14 +1,9 @@
 
-@media screen and (max-width: 768px) {
+@media screen  and (max-width: 768px) {
     .container{
         background-color: blueviolet;
     }
-    .img-top{
-        
-    }
-    .text{
-        
-    }
+    
     .text .title-img img{
         display: none;
     }
